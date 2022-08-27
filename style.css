@@ -1,0 +1,112 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body
+{
+    background:hwb(5 3% 5% / 0.925);
+    height: 100%;
+    width:100%;
+    margin:150px;
+    font-family:arial;
+    font-size:16px;
+    color:hsla(54, 67%, 37%, 0.929);
+}
+h2,p
+{
+    font-size:18px;
+    font-weight:normal;
+}
+u1,li
+{
+    list-style:none;
+}
+u1
+{
+    overflow:hidden;
+    padding:16px;
+}
+ul li a
+{
+    background:#171716;
+    display:block;
+    height:160px;
+    width:160px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding:30px;
+    text-decoration:cursive;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transition: transform.15s linear; 
+}
+ul li 
+{
+    margin:20px;
+    float:left;
+}
+ul li h2
+{
+    font-size:100%;
+    font-weight:bold;
+    padding-bottom:22px;
+    background:rgb(142, 106, 106)
+}
+ul li p
+{
+    font-family:italic;
+    font-size:140%;
+}
+ul li a
+{
+    transform:straight(-6deg);
+}
+ul li:nth-child(1)
+a
+{
+    position: relative;
+    top:5px;
+    background:hsl(305, 98%, 49%);
+    background:rotate(6deg);
+
+}
+ul li:nth-child(2)
+a
+{
+    position: relative;
+    top:-5px;
+    background:#f6ea04;
+    background:rotate(-3deg);
+}
+ul li:nth-child(3)
+a
+{
+    position: relative;
+    top:-10px;
+    background:hwb(171 1% 0%);
+    background:rotate(6deg);
+}
+ul li:nth-child(4)
+a
+{
+    position: relative;
+    top:-5px;
+    background:rgb(2, 2, 253);
+    background:rotate(-3deg);
+}
+ul li:nth-child(5) 
+a 
+{
+    position: relative;
+    top:5px;
+    background:hwb(120 2% 0%);
+    background:rotate(6deg);
+}
+ul li a:hover,ul li a:focus
+{
+    position:relatives;
+    box-shadow:10px 10px 7px #0000010a;
+    transform:scale(1.25);
+    z-index:5;
+}
